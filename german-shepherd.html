@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>German Shepherd</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="images/raf,360x360,075,t,fafafaca443f4786.u3.jpg">
+</head>
+<body>
+
+<header>
+  <div class="logo">DOGS</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">TOP DOGS</a></li>
+      <li><a href="explore-breeds.html">EXPLORE BREEDS</a></li>
+      <li><a href="ranking.html">RANKING SYSTEM</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Dog Profile Section -->
+<section class="breed-profile">
+  <br>
+  <p class="top-label">TOP BREED</p>
+  <h1 class="rank-title">NUMBER 1</h1>
+
+  <div class="breed-image">
+    <img src="images/Black-and-red-German-Shepherd.jpg" alt="German Shepherd">
+  </div>
+
+  <p class="profile-label">PROFILE</p>
+  <h2 class="breed-name">German Shepherd</h2>
+
+  <div class="breed-meta">
+    <div><strong>ORIGIN</strong><br>Germany</div>
+    <div><strong>GROUP</strong><br>Herding</div>
+    <div><strong>SIZE</strong><br>Large</div>
+  </div>
+
+  <p class="description">
+    The German Shepherd is a breed known for intelligence, loyalty, and versatility. Originally bred for herding sheep, today it excels in police work, search and rescue, and as a loyal family companion. They’re confident, courageous, and eager to learn.
+  </p>
+</section>
+
+<!-- Image Gallery -->
+<section class="gallery">
+  <img src="images/should-you-foster-a-german-shepherd-426044.jpg" alt="German Shepherd 1" onclick="openModal(this)">
+  <img src="images/german-shepherd-outdoorsa-min.jpg" alt="German Shepherd 2" onclick="openModal(this)">
+  <img src="images/german-shepherd-image-3.jpg" alt="German Shepherd 3" onclick="openModal(this)">
+</section>
+
+<!-- Modal Lightbox -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <span class="modal-close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+<!-- JavaScript for Lightbox -->
+<script>
+  function openModal(img) {
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modalImage");
+    modal.style.display = "block";
+    modalImg.src = img.src;
+  }
+
+  function closeModal() {
+    document.getElementById("modal").style.display = "none";
+  }
+</script>
+
+</body>
+</html>

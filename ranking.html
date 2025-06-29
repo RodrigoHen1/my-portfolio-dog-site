@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dog Rankings</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="images/raf,360x360,075,t,fafafaca443f4786.u3.jpg">
+  <style>
+    .ranking-container {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .ranking-container h1 {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    .ranking-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .ranking-card {
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .ranking-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .ranking-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .ranking-card h3 {
+      margin: 15px 0 5px;
+      font-size: 24px;
+    }
+
+    .ranking-card p {
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">DOGS</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">TOP DOGS</a></li>
+      <li><a href="explore-breeds.html">EXPLORE BREEDS</a></li>
+      <li><a href="ranking.html">RANKING SYSTEM</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="ranking-container">
+  <h1>Breed Rankings</h1>
+
+  <div class="ranking-list">
+
+    <div class="ranking-card">
+      <a href="german-shepherd.html">
+        <img src="images/Black-and-red-German-Shepherd.jpg" alt="German Shepherd">
+        <h3>German Shepherd</h3>
+        <p>Score: 95/100</p>
+      </a>
+    </div>
+
+    <div class="ranking-card">
+      <a href="golden-retriever.html">
+        <img src="images/golden-retriever.jpg" alt="Golden Retriever">
+        <h3>Golden Retriever</h3>
+        <p>Score: 93/100</p>
+      </a>
+    </div>
+
+    <div class="ranking-card">
+      <a href="siberian-husky.html">
+        <img src="images/husky 1.jpg" alt="Siberian Husky">
+        <h3>Siberian Husky</h3>
+        <p>Score: 89/100</p>
+      </a>
+    </div>
+
+    <div class="ranking-card">
+      <a href="shiba-inu.html">
+        <img src="images/shiba 1.jpg" alt="Shiba Inu">
+        <h3>Shiba Inu</h3>
+        <p>Score: 87/100</p>
+      </a>
+    </div>
+
+    <div class="ranking-card">
+      <a href="border-collie.html">
+        <img src="images/border collie 1.jpg" alt="Border Collie">
+        <h3>Border Collie</h3>
+        <p>Score: 84/100</p>
+      </a>
+    </div>
+
+    <div class="ranking-card">
+      <a href="welsh-corgi.html">
+        <img src="images/360_F_337469991_SrMOQzMp63I0daaWvxRuTYMK9fS22n7L.jpg" alt="Welsh Corgi">
+        <h3>Welsh Corgi</h3>
+        <p>Score: 82/100</p>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

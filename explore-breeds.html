@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Explore Breeds</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="images/raf,360x360,075,t,fafafaca443f4786.u3.jpg">
+  <style>
+    /* Extra styles specific to this page */
+    .breed-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .breed-card {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      color: #fff;
+    }
+
+    .breed-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .breed-card h3 {
+      padding: 15px;
+      font-size: 1.2rem;
+    }
+
+    .browse-btn {
+      display: block;
+      margin: 30px auto 60px;
+      background-color: #d4af37;
+      color: black;
+      padding: 12px 28px;
+      font-size: 1rem;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .browse-btn:hover {
+      background-color: #b8972e;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">DOGS</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">TOP DOGS</a></li>
+        <li><a href="explore-breeds.html">EXPLORE BREEDS</a></li>
+        <li><a href="ranking.html">RANKING SYSTEM</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" style="padding-top: 160px;">
+    <div class="hero-content">
+      <h1>Explore Dog Breeds</h1>
+      <p>Check out some of the coolest dog breeds in the world</p>
+    </div>
+  </section>
+
+  <section class="breed-gallery">
+
+  <!-- Breed 1 -->
+  <a href="german-shepherd.html" style="text-decoration: none;">
+    <div class="breed-card">
+      <img src="images/Black-and-red-German-Shepherd.jpg" alt="German Shepherd">
+      <h3>German Shepherd</h3>
+    </div>
+  </a>
+
+  <!-- Breed 2 -->
+  <a href="golden-retriever.html" style="text-decoration: none;">
+    <div class="breed-card">
+      <img src="images/golden-retriever.jpg" alt="Golden Retriever">
+      <h3>Golden Retriever</h3>
+    </div>
+  </a>
+
+  <!-- Breed 3 -->
+  <a href="siberian-husky.html" style="text-decoration: none;">
+    <div class="breed-card">
+      <img src="images/husky 1.jpg" alt="Siberian Husky">
+      <h3>Siberian Husky</h3>
+    </div>
+  </a>
+
+  <!-- Breed 4 -->
+  <a href="shiba-inu.html" style="text-decoration: none;">
+    <div class="breed-card">
+      <img src="images/shiba 1.jpg" alt="Shiba Inu">
+      <h3>Shiba Inu</h3>
+    </div>
+  </a>
+
+  <!-- Breed 5 -->
+  <a href="border-collie.html" style="text-decoration: none;">
+    <div class="breed-card">
+      <img src="images/border collie 1.jpg" alt="Border Collie">
+      <h3>Border Collie</h3>
+    </div>
+  </a>
+
+  <!-- Breed 6 -->
+  <a href="welsh-corgi.html" style="text-decoration: none;">
+    <div class="breed-card">
+      <img src="images/360_F_337469991_SrMOQzMp63I0daaWvxRuTYMK9fS22n7L.jpg" alt="Corgi">
+      <h3>Welsh Corgi</h3>
+    </div>
+  </a>
+
+</section>
+
+
+
+</body>
+</html>
